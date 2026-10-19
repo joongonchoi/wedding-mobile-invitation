@@ -14,7 +14,7 @@ export const Information1 = () => {
     <>
       <h2 className="english">Information</h2>
       <div className="info-card">
-        <div className="label">연회장 안내</div>
+        <div className="label">연회장 </div>
         <div className="content">
           식사시간: 15시 50분 ~ 17시
           <br />
@@ -31,7 +31,7 @@ export const Information1 = () => {
 export const Information4 = () => {
   return (
     <div className="info-card">
-      <div className="label">어린이 식권 안내</div>
+      <div className="label">어린이 식권 </div>
       <div className="content">
         만 3-10세는 어린이 식권을 요청해주세요.
         <br />
@@ -47,7 +47,7 @@ export const Information4 = () => {
 export const Information3 = () => {
   return (
     <div className="info-card">
-      <div className="label">ATM 기기 안내</div>
+      <div className="label">ATM 기기 </div>
       <div className="content">
         9층 승강기에서 내리면 바로 오른편에 위치
       </div>
