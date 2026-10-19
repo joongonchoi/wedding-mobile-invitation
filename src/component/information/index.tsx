@@ -7,7 +7,7 @@ import { Modal } from "../modal"
 import { AttendanceInfo } from "./attendance"
 
 /**
- * 식사 정보 안내 컴포넌트입니다.
+ * 식사 정보 안내 컴포넌트입니다. (영문 타이틀 포함)
  */
 export const Information1 = () => {
   return (
@@ -26,44 +26,37 @@ export const Information1 = () => {
 }
 
 /**
- * ATM 정보 안내 컴포넌트입니다.
+ * 어린이 식권 안내 컴포넌트입니다. (중복 타이틀 제거)
  */
-export const Information3 = () => {
+export const Information4 = () => {
   return (
-    <>
-      <h2 className="english">Information</h2>
-      <div className="info-card">
-        <div className="label">ATM 기기 안내</div>
-        <div className="content">
-          9층 승강기에서 내리면 바로 오른편에 위치
-        </div>
+    <div className="info-card">
+      <div className="label">어린이 식권 안내</div>
+      <div className="content">
+        만 3-10세는 어린이 식권을 요청해주세요.
+        <br />
+        (3세 미만은 무료입니다.)
       </div>
-    </>
+    </div>
   )
 }
 
 /**
- * ATM 정보 안내 컴포넌트입니다.
+ * ATM 정보 안내 컴포넌트입니다. (중복 타이틀 제거)
  */
-export const Information4 = () => {
+export const Information3 = () => {
   return (
-    <>
-      <h2 className="english">Information</h2>
-      <div className="info-card">
-        <div className="label">어린이 식권 안내</div>
-        <div className="content">
-          만 3-10세는 어린이 식권을 요청해주세요.
-          <br />
-          (3세 미만은 무료입니다.)
-        </div>
+    <div className="info-card">
+      <div className="label">ATM 기기 안내</div>
+      <div className="content">
+        9층 승강기에서 내리면 바로 오른편에 위치
       </div>
-    </>
+    </div>
   )
 }
 
 /**
  * 축의금 계좌번호 안내 컴포넌트입니다.
- * 신랑측, 신부측 계좌번호를 모달로 보여줍니다.
  */
 export const Information2 = () => {
   const donationModalState = useState(false)
@@ -131,7 +124,6 @@ export const Information2 = () => {
                   onClick={async () => {
                     if (account) {
                       try {
-                        // 계좌번호 복사 기능
                         await navigator.clipboard.writeText(account)
                         alert(account + "\n복사되었습니다.")
                       } catch {
@@ -160,24 +152,19 @@ export const Information2 = () => {
 }
 
 /**
- * 정보 안내(식사, 축의금, 참석의사)를 통합하여 표시하는 컴포넌트입니다.
- *
- * @returns {JSX.Element} 정보 안내 섹션
+ * 정보 안내 통합 컴포넌트입니다.
  */
 export const Information = () => {
-  // 정적 모드일 경우 참석 의사 전달 기능을 제외합니다.
   if (STATIC_ONLY) {
     return (
       <>
+        {/* 식사, 식권, ATM 안내를 하나의 카드로 묶음 */}
         <LazyDiv className="card information">
           <Information1 />
-        </LazyDiv>
-        <LazyDiv className="card information">
           <Information4 />
-        </LazyDiv>
-        <LazyDiv className="card information">
           <Information3 />
         </LazyDiv>
+        {/* 계좌번호 안내만 별도 카드로 분리 (또는 위 카드 안에 함께 넣어도 무방) */}
         <LazyDiv className="card information">
           <Information2 />
         </LazyDiv>
