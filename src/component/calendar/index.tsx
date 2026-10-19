@@ -107,15 +107,25 @@ export const Calendar = () => {
             classes.push("wedding-date")
           }
 
+          // return (
+          //   <div
+          //     key={i}
+          //     className={classes.length ? classes.join(" ") : undefined}
+          //   >
+          //     <span>{date}</span>
+          //     {isWeddingDate && <div className="heart" />}
+          //   </div>
+          // )
           return (
             <div
               key={i}
               className={classes.length ? classes.join(" ") : undefined}
             >
-              <span>{date}</span>
-              {isWeddingDate && <div className="heart" />}
+              <span>{isWeddingDate ? "❤️" : date}</span>
             </div>
           )
+
+
         })}
       </div>
 
