@@ -16,9 +16,9 @@ export const Information1 = () => {
       <div className="info-card">
         <div className="label">연회장 </div>
         <div className="content">
-          식사시간: 15시 50분 ~ 17시
+          위치는 같은 층 웨딩홀 바로 옆에 위치해있으며,
           <br />
-          장소: 웨딩홀 옆
+          식사 가능 시간은 <strong>15시 50분 ~ 17시</strong> 입니다.
         </div>
       </div>
     </>
@@ -33,9 +33,9 @@ export const Information4 = () => {
     <div className="info-card">
       <div className="label">어린이 식권 </div>
       <div className="content">
-        만 3-10세는 어린이 식권을 요청해주세요.
+        <strong>만 3-10세</strong>는 어린이 식권을 요청해주세요.
         <br />
-        (3세 미만은 무료입니다.)
+        (<strong>3세 미만</strong>은 무료입니다.)
       </div>
     </div>
   )
@@ -49,7 +49,7 @@ export const Information3 = () => {
     <div className="info-card">
       <div className="label">ATM 기기 </div>
       <div className="content">
-        9층 승강기에서 내리면 바로 오른편에 위치
+        <strong>M프라자 9층 승강기</strong>에서 내리시면 <strong>바로 오른편</strong>에 위치해있습니다.
       </div>
     </div>
   )
