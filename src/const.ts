@@ -53,8 +53,8 @@ export const SHARE_ADDRESS_TITLE = LOCATION
 /**
  * 지도 서비스(네이버, 카카오)에 사용할 좌표 [경도, 위도]
  */
-export const WEDDING_HALL_POSITION = [127.0855, 36.9925]
-
+// export const WEDDING_HALL_POSITION = [127.0855, 36.9925]
+export const WEDDING_HALL_POSITION = [127.08792, 36.99431]
 /**
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
  * 네이버 지도에서 장소 검색 후 URL의 숫자 부분을 입력합니다.
