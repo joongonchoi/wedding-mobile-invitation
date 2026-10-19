@@ -16,9 +16,9 @@ export const Information1 = () => {
       <div className="info-card">
         <div className="label">연회장 </div>
         <div className="content">
-          위치는 같은 층 웨딩홀 바로 옆에 있으며,
+          같은 층 웨딩홀 바로 옆에 위치해있으며,
           <br />
-          식사 가능 시간은 <strong>15시 50분 ~ 17시</strong>입니다.
+          식사 가능 시간은 <strong>15시 50분-17시</strong>입니다.
         </div>
       </div>
     </>
@@ -35,7 +35,7 @@ export const Information4 = () => {
       <div className="content">
         <strong>만 3-10세</strong>는 어린이 식권을 요청해주세요.
         <br />
-        (<strong>3세 미만</strong>은 무료입니다.)
+        (<strong>3세 미만</strong>은 <strong>무료</strong>입니다.)
       </div>
     </div>
   )
