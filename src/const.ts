@@ -14,7 +14,7 @@ export { dayjs }
  * 예식 일시 설정
  * Asia/Seoul 타임존 기준으로 설정합니다.
  */
-export const WEDDING_DATE = dayjs.tz("2024-08-24 13:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2027-01-23 16:20", "Asia/Pyeongtaek")
 
 /**
  * 예식 일시 포맷
@@ -27,17 +27,17 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
  * 예식 당월 휴무일 (달력 표시용)
  * 예: 8월 15일 광복절
  */
-export const HOLIDAYS = [15]
+export const HOLIDAYS = [1, 2, 3]
 
 /**
  * 예식 장소 명칭
  */
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
+export const LOCATION = "더 베라 by 루클라비 단독홀"
 
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "서울시 관악구 관악로 1, 연구공원 본관 1층"
+export const LOCATION_ADDRESS = "경기도 평택시 중앙로 46 9층"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
@@ -68,11 +68,11 @@ export const NMAP_PLACE_ID = 13321741
 export const KMAP_PLACE_ID = 8634826
 
 // 신부 정보 설정
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
-export const BRIDE_TITLE = "장녀"
-export const BRIDE_FATHER = "정상원"
-export const BRIDE_MOTHER = "박윤정"
+export const BRIDE_FULLNAME = "김은진"
+export const BRIDE_FIRSTNAME = "은진"
+export const BRIDE_TITLE = "딸"
+export const BRIDE_FATHER = "김현환"
+export const BRIDE_MOTHER = "이영순"
 
 /**
  * 신부측 연락처 및 계좌 정보
@@ -99,11 +99,11 @@ export const BRIDE_INFO = [
 ]
 
 // 신랑 정보 설정
-export const GROOM_FULLNAME = "남주호"
-export const GROOM_FIRSTNAME = "주호"
-export const GROOM_TITLE = "차남"
-export const GROOM_FATHER = "남현태"
-export const GROOM_MOTHER = "김현영"
+export const GROOM_FULLNAME = "최중온"
+export const GROOM_FIRSTNAME = "중온"
+export const GROOM_TITLE = "아들"
+export const GROOM_FATHER = "최세휘"
+export const GROOM_MOTHER = "박복자"
 
 /**
  * 신랑측 연락처 및 계좌 정보
