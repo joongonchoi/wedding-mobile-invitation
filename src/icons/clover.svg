@@ -3,7 +3,7 @@
     <path id="leaf" d="M 50 48 C 38 35, 22 24, 33 12 C 41 4, 50 13, 50 20 C 50 13, 59 4, 67 12 C 78 24, 62 35, 50 48 Z" />
   </defs>
 
-  <g fill="#46965b" stroke="#46965b" stroke-width="2">
+  <g fill="#46965b">
     <use href="#leaf" transform="rotate(45 50 50)" />
     <use href="#leaf" transform="rotate(135 50 50)" />
     <use href="#leaf" transform="rotate(225 50 50)" />
