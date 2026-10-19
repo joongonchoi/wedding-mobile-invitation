@@ -37,7 +37,7 @@ export const LOCATION = "더 베라 by 루클라비 단독홀"
 /**
  * 예식 장소 상세 주소
  */
-export const LOCATION_ADDRESS = "경기도 평택시 중앙로 46 9층"
+export const LOCATION_ADDRESS = "경기도 평택시 중앙로 46 M프라자 9층"
 
 /**
  * 카카오톡 공유 시 사용할 위치 정보 주소
