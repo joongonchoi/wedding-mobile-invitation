@@ -16,7 +16,7 @@ export const Information1 = () => {
       <div className="info-card">
         <div className="label">연회장 </div>
         <div className="content">
-          같은 층 웨딩홀 바로 옆에 위치해있으며,
+          같은 층 <strong>웨딩홀 바로 옆</strong>에 위치해있으며,
           <br />
           식사 가능 시간은 <strong>15시 50분-17시</strong>입니다.
         </div>
