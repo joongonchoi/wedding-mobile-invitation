@@ -33,12 +33,12 @@ export const Invitation = () => {
         <div className="break" />
 
         {/* 초대 문구 */}
-        <div className="content">결혼식에 초대합니다.</div>
+        <div className="content">결혼식에 <strong>초대합니다</strong>.</div>
         <div className="break" />
-        <div className="content">신뢰와 사랑으로 맺어진 저희 두 사람이</div>
-        <div className="content">이제 평생의 동반자가 되려합니다.</div>
+        <div className="content"><strong>신뢰</strong>와 <strong>사랑</strong>으로 맺어진 저희 두 사람이</div>
+        <div className="content">이제 <strong>평생의 동반자</strong>가 되려합니다.</div>
         <div className="break" />
-        <div className="content">저희의 첫 시작을 함께 축복해 주세요!</div>
+        <div className="content">저희의 <strong>첫 시작</strong>을 함께 <strong>축복해주세요</strong>!</div>
 
         <div className="break" />
 
