@@ -25,6 +25,18 @@ export const Location = () => {
 
       {/* 대중교통 및 자가용 안내 섹션 */}
       <LazyDiv className="card location">
+        {/* 셔틀버스 안내 */}
+        <div className="location-info">
+          <div className="transportation-icon-wrapper">
+            <BusIcon className="transportation-icon" />
+          </div>
+          <div className="heading">셔틀버스</div>
+          <div />
+          <div className="content">
+            평택역 1번 출구 맞은편 차앤박피부과의원 앞 (도보 2분)
+          </div>
+        </div>
+
         {/* 대중교통 안내 */}
         <div className="location-info">
           <div className="transportation-icon-wrapper">
@@ -33,30 +45,17 @@ export const Location = () => {
           <div className="heading">대중교통</div>
           <div />
           <div className="content">
-            * 지하철 이용시
+            <b>지하철</b>
             <br />
-            지하철 2호선 <b>낙성대역 4번출구</b> 나와서
-            <br />
-            → 첫번째 골목 끼고 좌회전
-            <br />→ 마을버스 <b>관악 02번</b> 승차
-            <br />→ <b>서울대후문·연구공원 정류장</b> 하차
-            <br />
-            → 길 건너 간판 참고해 도보로 100m 이동
-            <br />
-            검은색 피라미드 유리 건물입니다.
+            1호선 평택역 1번 출구 도보 5분 거리 (평택역 오거리 → 독일보청기 방향 300m)
           </div>
           <div />
           <div className="content">
-            * 버스 이용 시
+            <b>버스</b>
             <br />
-            - 간선(파랑): 461, 641
+            - 일반 | 평택역, 우리은행 하차 후 도보 5분 거리 M프라자 빌딩 9층
             <br />
-            - 지선(초록): 5413, 5524, 5528
-            <br />
-            반드시 <b>낙성대입구</b> 하차
-            <br />→ 마을버스 <b>관악 02번</b> 이용
-            <br />
-            이하 위와 동일합니다.
+            - 터미널 | 평택 고속버스터미널 하차 (AK PLAZA 앞)
           </div>
         </div>
 
@@ -68,20 +67,19 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            네이버 지도, 카카오 네비, 티맵 등 이용
+            <b>네비게이션</b> |경기도 평택시 중앙로 46 (평택동 35-3) THE VERA(더 베라)
             <br />
-            <b>서울대학교 연구공원 웨딩홀</b> 검색
+            <b>고속도로</b> | 안성IC → 좌회전 → 평택역 방향 → 농협사거리 M프라자 빌딩
             <br />
-            - 주차 요금은 무료입니다.
-            <br />
-            (주차장 이용 시 웨딩홀과 바로 연결)
+            <b>무료도로</b> | 1번국도 → 오산 → 송탄출장소 → 평택역 방향 → 평택역 앞 사거리 평택경찰서 방향 → 농협사거리 M프라자 빌딩
           </div>
           <div />
           <div className="content">
-            <b>
-              ※ 서울대학교 정, 후문을 통과할 경우 통행료가 발생하므로
-              유의바랍니다. 낙성대 방향으로 이용해주세요.
-            </b>
+            <b>주차 안내</b>
+            <br />
+            M프라자 빌딩 지하 1, 2, 3층 또는 자란공영주차장
+            <br />
+            (차량번호 등록 필요, 2시간 무료 주차)
           </div>
         </div>
       </LazyDiv>
