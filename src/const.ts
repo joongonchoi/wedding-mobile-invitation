@@ -14,7 +14,7 @@ export { dayjs }
  * 예식 일시 설정
  * Asia/Seoul 타임존 기준으로 설정합니다.
  */
-export const WEDDING_DATE = dayjs.tz("2027-01-23 16:20", "Asia/Pyeongtaek")
+export const WEDDING_DATE = dayjs.tz("2027-01-23 16:20", "Asia/Seoul")
 
 /**
  * 예식 일시 포맷
