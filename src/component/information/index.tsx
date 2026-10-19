@@ -14,11 +14,47 @@ export const Information1 = () => {
     <>
       <h2 className="english">Information</h2>
       <div className="info-card">
-        <div className="label">식사 안내</div>
+        <div className="label">연회장 안내</div>
         <div className="content">
           식사시간: 15시 50분 ~ 17시
           <br />
           장소: 웨딩홀 옆
+        </div>
+      </div>
+    </>
+  )
+}
+
+/**
+ * ATM 정보 안내 컴포넌트입니다.
+ */
+export const Information3 = () => {
+  return (
+    <>
+      <h2 className="english">Information</h2>
+      <div className="info-card">
+        <div className="label">ATM 기기 안내</div>
+        <div className="content">
+          9층 승강기에서 내리면 바로 오른편에 위치
+        </div>
+      </div>
+    </>
+  )
+}
+
+/**
+ * ATM 정보 안내 컴포넌트입니다.
+ */
+export const Information4 = () => {
+  return (
+    <>
+      <h2 className="english">Information</h2>
+      <div className="info-card">
+        <div className="label">어린이 식권 안내</div>
+        <div className="content">
+          만 3-10세는 어린이 식권을 요청해주세요.
+          <br />
+          (3세 미만은 무료입니다.)
         </div>
       </div>
     </>
@@ -137,6 +173,12 @@ export const Information = () => {
           <Information1 />
         </LazyDiv>
         <LazyDiv className="card information">
+          <Information4 />
+        </LazyDiv>
+        <LazyDiv className="card information">
+          <Information3 />
+        </LazyDiv>
+        <LazyDiv className="card information">
           <Information2 />
         </LazyDiv>
       </>
@@ -146,6 +188,8 @@ export const Information = () => {
   return (
     <LazyDiv className="card information">
       <Information1 />
+      <Information4 />
+      <Information3 />
       <Information2 />
       <AttendanceInfo />
     </LazyDiv>
