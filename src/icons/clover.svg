@@ -1,20 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="64" height="64">
-  <defs>
-    <path id="leaf" d="M 50 48 C 38 35, 22 24, 33 12 C 41 4, 50 13, 50 20 C 50 13, 59 4, 67 12 C 78 24, 62 35, 50 48 Z" />
-  </defs>
-
-  <g fill="#ffffff" stroke="#46965b" stroke-width="2">
-    <use href="#leaf" transform="rotate(45 50 50)" />
-    <use href="#leaf" transform="rotate(135 50 50)" />
-    <use href="#leaf" transform="rotate(225 50 50)" />
-    <use href="#leaf" transform="rotate(315 50 50)" />
-  </g>
-
-  <path
-    d="M 50 50 Q 53 76 64 93"
-    stroke="#46965b"
-    stroke-width="3.5"
-    fill="none"
-    stroke-linecap="round"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="64" height>
+  <defs>
+    <path id="leaf" d="M 50 48 C 38 35, 22 24, 33 12 C 41 4, 50 13, 50 20 C 50 >
+  </defs>
+  <g fill="#46965b">
+    <use href="#leaf" transform="rotate(45 50 50)" />
+    <use href="#leaf" transform="rotate(135 50 50)" />
+    <use href="#leaf" transform="rotate(225 50 50)" />
+    <use href="#leaf" transform="rotate(315 50 50)" />
+  </g>
+  <path d="M 50 50 Q 53 76 64 93" stroke="#46965b" stroke-width="3.5" fill="non>
 </svg>
+
