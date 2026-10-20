@@ -211,3 +211,9 @@ h2 {
 div.break {
   height: 1rem;
 }
+
+/* 모시는 글(초대 문구) 본문 폰트 크기 키우기 */
+.invitation .content {
+  font-size: 1.1rem; /* 기본보다 살짝 크게 (원하는 숫자로 조절하세요. 예: 1.2rem, 18px 등) */
+  line-height: 1.8; /* 글씨가 커진 만큼 줄 간격도 조금 넓혀주면 훨씬 보기 좋습니다. */
+}
