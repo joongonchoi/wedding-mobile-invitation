@@ -22,7 +22,7 @@ import image_23 from "./image_23.png"
 import image_24 from "./image_24.jpg"
 import image_1 from "./image_1.jpg"
 import image_3 from "./image_3.jpg"
-import image_2 from "./image_2.jpg"
+// import image_2 from "./image_2.jpg"
 /**
  * 메인 커버 이미지
  */
@@ -55,5 +55,5 @@ export const GALLERY_IMAGES = [
   image_24,
   image_1,
   image_3,
-  image_2,
+  // image_2,
 ]
