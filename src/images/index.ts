@@ -1,7 +1,5 @@
 import coverImage from "./cover.jpeg"
-// import image_1 from "./image_1.jpg"
-// import image_2 from "./image_2.jpg"
-// import image_3 from "./image_3.jpg"
+
 // import image_4 from "./image_4.jpg"
 // import image_5 from "./image_5.jpg"
 // import image_6 from "./image_6.jpg"
@@ -20,7 +18,11 @@ import coverImage from "./cover.jpeg"
 // import image_19 from "./image_19.jpg"
 // import image_20 from "./image_20.jpg"
 import image_22 from "./image_22.jpg"
-import image_21 from "./image_21.png"
+import image_23 from "./image_23.png"
+import image_24 from "./image_24.jpg"
+import image_1 from "./image_1.jpg"
+import image_3 from "./image_3.jpg"
+import image_2 from "./image_2.jpg"
 /**
  * 메인 커버 이미지
  */
@@ -30,9 +32,7 @@ export const COVER_IMAGE = coverImage
  * 갤러리에 표시될 이미지 목록
  */
 export const GALLERY_IMAGES = [
-  // image_1,
-  // image_2,
-  // image_3,
+
   // image_4,
   // image_5,
   // image_6,
@@ -51,5 +51,9 @@ export const GALLERY_IMAGES = [
   // image_19,
   // image_20,
   image_22,
-  image_21,
+  image_23,
+  image_24,
+  image_1,
+  image_3,
+  image_2,
 ]
