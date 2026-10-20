@@ -41,6 +41,10 @@ export const Invitation = () => {
         <div className="content">저희의 <strong>첫 시작</strong>을 함께 <strong>축복해주세요</strong>!</div>
 
         <div className="break" />
+        <div className="break" />
+        <div className="break" />
+        <div className="break" />
+        <div className="break" />
 
         {/* 혼주 및 신랑 정보 */}
         <div className="name">
