@@ -45,6 +45,8 @@ export const Invitation = () => {
         <div className="break" />
         <div className="break" />
         <div className="break" />
+        <div className="break" />
+        <div className="break" />
 
         {/* 혼주 및 신랑 정보 */}
         <div className="name">
