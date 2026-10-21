@@ -1,5 +1,5 @@
-import coverImage from "./cover.jpeg"
-
+// import coverImage from "./cover.jpeg"
+import coverImage from "./cover_video.gif"
 // import image_4 from "./image_4.jpg"
 // import image_5 from "./image_5.jpg"
 // import image_6 from "./image_6.jpg"
