@@ -28,25 +28,25 @@ export const ShareButton = () => {
             return
           }
 
-          // 카카오톡 공유 전송 (피드 템플릿 사용 - 위치보기 버튼 제거)
+          // 카카오톡 공유 전송 (피드 템플릿 사용 및 동적 도메인 적용)
           kakao.Share.sendDefault({
             objectType: "feed",
             content: {
               title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
               description:
                 WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
-              imageUrl: "https://joongjini.site/cover_s.png",
+              imageUrl: window.location.origin + "/cover_s.png",
               link: {
-                mobileWebUrl: "https://joongjini.site/",
-                webUrl: "https://joongjini.site/",
+                mobileWebUrl: window.location.origin,
+                webUrl: window.location.origin,
               },
             },
             buttons: [
               {
                 title: "초대장 보기",
                 link: {
-                  mobileWebUrl: "https://joongjini.site/",
-                  webUrl: "https://joongjini.site/",
+                  mobileWebUrl: window.location.origin,
+                  webUrl: window.location.origin,
                 },
               },
             ],
