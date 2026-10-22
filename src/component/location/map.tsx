@@ -156,7 +156,7 @@ const NaverMap = () => {
         </button>
 
         {/* 카카오 내비 연동 */}
-        <button
+        {/* <button
           onClick={() => {
             switch (checkDevice()) {
               case "ios":
@@ -177,9 +177,19 @@ const NaverMap = () => {
                 break
             }
           }}
+        > */}
+        <button
+          onClick={() => {
+            // 모바일, PC 기기 상관없이 카카오맵 웹링크로 통일 
+            // (핸드폰에 카카오맵 앱이 있으면 앱으로 켜지고, 없으면 웹 지도로 켜집니다)
+            window.open(
+              `https://map.kakao.com/link/map/${KMAP_PLACE_ID}`,
+              "_blank",
+            )
+          }}
         >
           <img src={knaviIcon} alt="kakao-navi-icon" />
-          카카오 내비
+          카카오 지도
         </button>
 
         {/* 티맵 연동 */}
