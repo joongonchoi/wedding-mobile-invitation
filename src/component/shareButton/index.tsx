@@ -37,16 +37,16 @@ export const ShareButton = () => {
                 WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
               imageUrl: "https://joongjini.site/cover_s.png",
               link: {
-                mobileWebUrl: "https://joongjini.site/",
-                webUrl: "https://joongjini.site/",
+                mobileWebUrl: "https://joongjini.site",
+                webUrl: "https://joongjini.site",
               },
             },
             buttons: [
               {
                 title: "초대장 보기",
                 link: {
-                  mobileWebUrl: "https://joongjini.site/",
-                  webUrl: "https://joongjini.site/",
+                  mobileWebUrl: "https://joongjini.site",
+                  webUrl: "https://joongjini.site",
                 },
               },
             ],
