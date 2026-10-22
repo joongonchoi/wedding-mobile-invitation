@@ -77,7 +77,9 @@ export const Location = () => {
           <div className="content">
             <b>주차 안내</b>
             <br />
-            M프라자 빌딩 지하 1, 2, 3층 또는 자란공영주차장
+            <span style={{ letterSpacing: "-1px" }}>
+              M프라자 빌딩 지하 1, 2, 3층 또는 자란공영주차장
+            </span>
             <br />
             (차량번호 등록 필요, 2시간 무료 주차)
           </div>
