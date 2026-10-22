@@ -152,8 +152,8 @@ $transition-duration: 0.3s;
       padding: 0 0.7rem 0.7rem 0.7rem;
       .photo-list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 2에서 3으로 변경하여 3열 배치 */
-        grid-auto-rows: 7rem; /* 가로가 좁아진 만큼 세로 높이(기존 12rem)도 7~8rem 정도로 줄여주면 사진 비율이 자연스럽습니다 */
+        grid-template-columns: repeat(4, 1fr); /* 2에서 3으로 변경하여 3열 배치 */
+        grid-auto-rows: 5rem; /* 가로가 좁아진 만큼 세로 높이(기존 12rem)도 7~8rem 정도로 줄여주면 사진 비율이 자연스럽습니다 */
         gap: 0.5rem;
         img {
           width: 100%;

@@ -22,7 +22,7 @@ export const Information1 = () => {
           <br />
           <strong>15시 50분</strong>부터 가능합니다.
           <br />
-          (마감 이후에도 편안하게 식사를 마치고 가세요.)
+          (마감 이후에도 편안하게 식사를 마치고 가세요:)
         </div>
       </div>
     </>
