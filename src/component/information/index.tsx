@@ -18,9 +18,11 @@ export const Information1 = () => {
         <div className="content">
           같은 층 <strong>웨딩홀 바로 옆</strong>에 위치해있으며,
           <br />
-          식사 가능 시간은 식 30분 전인 <strong>15시 50분</strong>부터 가능합니다.
+          식사 가능 시간은 식 30분 전인 
           <br />
-          (마감 시간은 17시 50분입니다. 다만, 마감 이후에도 편안하게 식사를 마치고 가셔도 됩니다.)
+          <strong>15시 50분</strong>부터 가능합니다.
+          <br />
+          (마감 이후에도 편안하게 식사를 마치고 가셔도 됩니다.)
         </div>
       </div>
     </>
@@ -51,7 +53,9 @@ export const Information3 = () => {
     <div className="info-card">
       <div className="label">ATM 기기 </div>
       <div className="content">
-        <strong>M프라자 9층 승강기</strong>에서 내리시면 <strong>바로 오른편</strong>에 위치해있습니다.
+        <strong>M프라자 9층 승강기</strong>에서 내리시면 
+        <br />
+        <strong>바로 오른편</strong>에 위치해있습니다.
       </div>
     </div>
   )
