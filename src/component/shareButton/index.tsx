@@ -28,35 +28,9 @@ export const ShareButton = () => {
             return
           }
 
-          // 카카오톡 공유 전송 (위치 기반 템플릿 사용)
-        //   kakao.Share.sendDefault({
-        //     objectType: "location",
-        //     address: SHARE_ADDRESS,
-        //     addressTitle: SHARE_ADDRESS_TITLE,
-        //     content: {
-        //       title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
-        //       description:
-        //         WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
-        //       imageUrl: "https://joongjini.site/cover_s.png",
-        //       link: {
-        //         mobileWebUrl: "https://joongjini.site",
-        //         webUrl: "https://joongjini.site",
-        //       },
-        //     },
-        //     buttons: [
-        //       {
-        //         title: "초대장 보기",
-        //         link: {
-        //           mobileWebUrl: "https://joongjini.site",
-        //           webUrl: "https://joongjini.site",
-        //         },
-        //       },
-        //     ],
-        //   })
-        // }}
-        kakao.Share.sendDefault({
-            objectType: "feed", // 👈 "location"에서 "feed"로 변경
-            // address와 addressTitle 속성은 삭제합니다.
+          // 카카오톡 공유 전송 (피드 템플릿 사용 - 위치보기 버튼 제거)
+          kakao.Share.sendDefault({
+            objectType: "feed",
             content: {
               title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
               description:
@@ -77,6 +51,7 @@ export const ShareButton = () => {
               },
             ],
           })
+        }}
       >
         <img src={ktalkIcon} alt="ktalk-icon" /> 카카오톡으로 공유하기
       </button>
