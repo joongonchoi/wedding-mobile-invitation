@@ -30,7 +30,7 @@ export const Location = () => {
           <div className="transportation-icon-wrapper">
             <BusIcon className="transportation-icon" />
           </div>
-          <div className="heading">셔틀버스</div>
+          <div className="heading">💡셔틀버스💡</div>
           <div />
           <div className="content">
             평택역 1번 출구 맞은편 차앤박피부과의원 앞 
@@ -82,7 +82,7 @@ export const Location = () => {
           </div>
           <div />
           <div className="content">
-            <b>주차 안내</b>
+            <b>💡주차 안내💡</b>
             <br />
             <span style={{ letterSpacing: "-1px" }}>
               M프라자 빌딩 지하 1, 2, 3층 또는 자란공영주차장
