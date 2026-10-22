@@ -32,13 +32,13 @@
   // }
 
   .image-wrapper {
-      width: 100%;
+      width: 70%;
       height: 30rem; /* 이 숫자를 늘리거나 줄여서 전체 높이를 조절하세요 (예: 20rem, 40rem, 60vh 등) */
       overflow: hidden;
       display: flex;
       align-items: center;
       img {
-        width: 80%;
+        width: 100%;
         height: auto; /* 기존 auto에서 100%로 변경 */
         object-fit: cover; /* 이미지가 찌그러지지 않고 영역에 꽉 차게 설정 */
       }
