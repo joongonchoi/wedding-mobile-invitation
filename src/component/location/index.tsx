@@ -33,7 +33,9 @@ export const Location = () => {
           <div className="heading">셔틀버스</div>
           <div />
           <div className="content">
-            평택역 1번 출구 맞은편 차앤박피부과의원 앞 (도보 2분)
+            평택역 1번 출구 맞은편 차앤박피부과의원 앞 
+            <br />
+            (도보 2분)
           </div>
         </div>
 
@@ -47,7 +49,9 @@ export const Location = () => {
           <div className="content">
             <b>지하철</b>
             <br />
-            1호선 평택역 1번 출구 도보 5분 거리 (평택역 오거리 → 독일보청기 방향 300m)
+            1호선 평택역 1번 출구 도보 5분 거리 
+            <br />
+            (평택역 오거리 → 독일보청기 방향 300m)
           </div>
           <div />
           <div className="content">
@@ -55,7 +59,10 @@ export const Location = () => {
             <br />
             - 일반 | 평택역, 우리은행 하차 후 도보 5분 거리 M프라자 빌딩 9층
             <br />
-            - 터미널 | 평택 고속버스터미널 하차 (AK PLAZA 앞)
+            <br />
+            - 터미널 | 평택 고속버스터미널 하차 
+            <br />
+            (AK PLAZA 앞)
           </div>
         </div>
 
@@ -69,7 +76,9 @@ export const Location = () => {
           <div className="content">
             <b>네비게이션</b> |경기도 평택시 중앙로 46 (평택동 35-3) THE VERA(더 베라)
             <br />
+            <br />
             <b>고속도로</b> | 안성IC → 좌회전 → 평택역 방향 → 농협사거리 M프라자 빌딩
+            <br />
             <br />
             <b>무료도로</b> | 1번국도 → 오산 → 송탄출장소 → 평택역 방향 → 평택역 앞 사거리 평택경찰서 방향 → 농협사거리 M프라자 빌딩
           </div>
