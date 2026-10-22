@@ -35,7 +35,7 @@ export const Location = () => {
           <div className="content">
             평택역 1번 출구 맞은편 차앤박피부과의원 앞 
             <br />
-            (도보 2분)
+            (10분마다 운행)
           </div>
         </div>
 
