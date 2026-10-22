@@ -39,7 +39,7 @@
       align-items: center;
       img {
         width: 100%;
-        height: auto; /* 기존 auto에서 100%로 변경 */
+        height: 100%; /* 기존 auto에서 100%로 변경 */
         object-fit: cover; /* 이미지가 찌그러지지 않고 영역에 꽉 차게 설정 */
       }
     }

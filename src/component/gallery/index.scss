@@ -133,20 +133,35 @@ $transition-duration: 0.3s;
     }
   }
 
+  // .content {
+  //   padding: 0 0.7rem 0.7rem 0.7rem;
+  //   .photo-list {
+  //     display: grid;
+  //     grid-template-columns: repeat(2, 1fr);
+  //     grid-auto-rows: 12rem;
+  //     gap: 0.5rem;
+  //     img {
+  //       width: 100%;
+  //       height: 100%;
+  //       object-fit: cover;
+  //     }
+  //   }
+  // }
+
   .content {
-    padding: 0 0.7rem 0.7rem 0.7rem;
-    .photo-list {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-auto-rows: 12rem;
-      gap: 0.5rem;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+      padding: 0 0.7rem 0.7rem 0.7rem;
+      .photo-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 2에서 3으로 변경하여 3열 배치 */
+        grid-auto-rows: 7rem; /* 가로가 좁아진 만큼 세로 높이(기존 12rem)도 7~8rem 정도로 줄여주면 사진 비율이 자연스럽습니다 */
+        gap: 0.5rem;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
-    }
-  }
+    } 
 
   .footer {
     display: flex;
