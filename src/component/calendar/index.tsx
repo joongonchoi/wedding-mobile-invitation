@@ -163,6 +163,72 @@ export const Calendar = () => {
           )}
         </div>
       </div>
+      
+      {/* 💡 참석 여부 알림 버튼 영역 💡 */}
+      <div 
+        style={{ 
+          display: "flex", 
+          gap: "10px", 
+          marginTop: "20px", 
+          justifyContent: "center",
+          width: "100%"
+        }}
+      >
+        {/* 신랑에게 알리기 버튼 */}
+        <a
+          href="sms:01091008360?body=[참석 여부 전달]%0A- 이름 : %0A- 참석 인원 : 명%0A- 식사 여부 (O/X) : %0A%0A전달해주셔서 감사합니다 ☺️"
+          style={{
+            flex: 1,
+            padding: "10px 0",
+            backgroundColor: "#f5f5f5",
+            border: "1px solid #e0e0e0",
+            color: "#333",
+            textDecoration: "none",
+            borderRadius: "8px",
+            fontSize: "0.85rem",
+            fontWeight: "bold",
+            textAlign: "center",
+            boxSizing: "border-box"
+          }}
+        >
+          🤵 신랑 측 참석 알림
+        </a>
+
+        {/* 신부에게 알리기 버튼 */}
+        <a
+          href="sms:01023329226?body=[참석 여부 전달]%0A- 이름 : %0A- 참석 인원 : 명%0A- 식사 여부 (O/X) : %0A%0A전달해주셔서 감사합니다 ☺️"
+          style={{
+            flex: 1,
+            padding: "10px 0",
+            backgroundColor: "#f5f5f5",
+            border: "1px solid #e0e0e0",
+            color: "#333",
+            textDecoration: "none",
+            borderRadius: "8px",
+            fontSize: "0.85rem",
+            fontWeight: "bold",
+            textAlign: "center",
+            boxSizing: "border-box"
+          }}
+        >
+          👰 신부 측 참석 알림
+        </a>
+      </div>
+      {/* 💡 버튼 하단 안내 문구 추가 💡 */}
+      <div style={{ 
+        marginTop: "12px", 
+        fontSize: "0.75rem", 
+        color: "#888", 
+        textAlign: "center", 
+        wordBreak: "keep-all" 
+      }}>
+        (참석 여부를 미리 알려주시면 예식 준비에 큰 도움이 됩니다.)
+      </div>
+
+
+
+
+
     </LazyDiv>
   )
 }
