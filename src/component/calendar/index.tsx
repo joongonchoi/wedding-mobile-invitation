@@ -223,7 +223,7 @@ export const Calendar = () => {
         textAlign: "center", 
         wordBreak: "keep-all" 
       }}>
-        (참석 여부를 미리 알려주시면 예식 준비에 큰 도움이 됩니다.)
+        (참석 여부를 미리 알려주시면 예식 준비에 큰 도움이 됩니다☺️)
       </div>
 
 
