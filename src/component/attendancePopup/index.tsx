@@ -84,7 +84,7 @@ export const AttendancePopup = () => {
             cursor: "pointer"
           }}
         >
-          닫기
+          나중에 할게요
         </button>
       </div>
     </div>
